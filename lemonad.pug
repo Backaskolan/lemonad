@@ -1,0 +1,12 @@
+html
+    head
+        meta(charset="utf-8")
+        title="Lemonad"
+    body
+        label(for="citron_pris") Citroner pris per styck
+        input(type="number", name="citron_pris", placeholder="Pris för citroner (per styck)", value="7.5")
+        label(for="socker_pris") Socker pris per kilo
+        input(type="number", name="socker_pris", placeholder="Pris för socker (per kilo)", value="11.48")
+        button(id="go") Räkna!
+        p(id="lemonad")
+    script(src="script.js")
